@@ -31,6 +31,7 @@
             this.dgDatos = new System.Windows.Forms.DataGridView();
             this.Most = new System.Windows.Forms.Button();
             this.Exp = new System.Windows.Forms.Button();
+            this.Imp = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgDatos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,11 +63,22 @@
             this.Exp.UseVisualStyleBackColor = true;
             this.Exp.Click += new System.EventHandler(this.Exp_Click);
             // 
+            // Imp
+            // 
+            this.Imp.Location = new System.Drawing.Point(328, 379);
+            this.Imp.Name = "Imp";
+            this.Imp.Size = new System.Drawing.Size(133, 23);
+            this.Imp.TabIndex = 3;
+            this.Imp.Text = "Importar";
+            this.Imp.UseVisualStyleBackColor = true;
+            this.Imp.Click += new System.EventHandler(this.Imp_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Imp);
             this.Controls.Add(this.Exp);
             this.Controls.Add(this.Most);
             this.Controls.Add(this.dgDatos);
@@ -82,6 +94,7 @@
         private System.Windows.Forms.DataGridView dgDatos;
         private System.Windows.Forms.Button Most;
         private System.Windows.Forms.Button Exp;
+        private System.Windows.Forms.Button Imp;
     }
 }
 

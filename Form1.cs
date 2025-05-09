@@ -25,10 +25,12 @@ namespace olamuchogusto
 
         private void Exp_Click(object sender, EventArgs e)
         {
-            if (acc.ExportaraExcel())
-                MessageBox.Show("Exportado con exito");
-            else
-                MessageBox.Show("No puede exportarse");
+
+        }
+
+        private void Imp_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
